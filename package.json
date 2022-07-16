@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:prod": "webpack --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
-    "start": "webpack-dev-server --open --port=9090"
+    "start": "webpack-dev-server --open --port=9090 --config webpack.prod.js"
   },
   "author": "Jose Pintado",
   "license": "ISC",

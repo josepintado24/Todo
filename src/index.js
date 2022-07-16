@@ -1,5 +1,11 @@
-import {saludar} from './js/componentes';
 import './styles.css';
-// import img  from './assets/webpack.jpg'
+import {Todo,TodoList} from './clases/index';
+import {crearTodo} from './js/componentes';
 
-saludar('Jose Pintado');
+export const todoList =new TodoList();
+// const tarea =new Todo('Aprender Js');
+// todoList.nuevoTodo(tarea);
+// tarea.complete=true;
+// crearTodo(tarea);
+// localStorage.setItem('Mi-key','TEst')
+// sessionStorage.setItem('Mi-key','TEst')
